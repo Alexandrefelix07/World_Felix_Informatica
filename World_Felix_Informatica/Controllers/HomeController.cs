@@ -23,7 +23,7 @@ namespace World_Felix_Informatica.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Sobre()
         {
             return View();
         }
