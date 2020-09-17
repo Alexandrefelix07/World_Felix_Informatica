@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Class\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Types\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\World_Felix_Informatica.Model\World_Felix_Informatica.Model.csproj" />
+  </ItemGroup>
+
+</Project>
