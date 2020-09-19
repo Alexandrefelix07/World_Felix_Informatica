@@ -6,8 +6,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\World_Felix_Informatica.BLL\World_Felix_Informatica.BLL.csproj" />
-    <ProjectReference Include="..\World_Felix_Informatica.Controller\World_Felix_Informatica.Controller.csproj" />
     <ProjectReference Include="..\World_Felix_Informatica.DAL\World_Felix_Informatica.DAL.csproj" />
-    <ProjectReference Include="..\World_Felix_Informatica.Model\World_Felix_Informatica.Model.csproj" />
   </ItemGroup>
 </Project>

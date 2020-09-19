@@ -9,8 +9,4 @@
     <Folder Include="Interface\" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\World_Felix_Informatica.DAL\World_Felix_Informatica.DAL.csproj" />
-  </ItemGroup>
-
 </Project>
