@@ -5,8 +5,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Class\" />
-    <Folder Include="Interface\" />
+    <PackageReference Include="Microsoft.Extensions.Identity.Stores" Version="3.1.8" />
   </ItemGroup>
 
 </Project>
