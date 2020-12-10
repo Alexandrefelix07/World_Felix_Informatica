@@ -17,7 +17,7 @@ namespace World_Felix_Informatica.DAL.Mapeamentos
             builder.HasData(
                 new Funcao
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = 1,
                     Name = "Administrador",
                     NormalizedName = "ADMINISTRADOR",
                     Descricao = "usuario master sitema"
@@ -25,7 +25,7 @@ namespace World_Felix_Informatica.DAL.Mapeamentos
                 },
                 new Funcao
                 {
-                    Id = Guid.NewGuid().ToString(),
+                    Id = 2,
                     Name = "Suporte",
                     NormalizedName = "SUPORTE",
                     Descricao = "usuario suporte sitema"

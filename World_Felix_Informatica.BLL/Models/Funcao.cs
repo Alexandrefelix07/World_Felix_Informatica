@@ -5,7 +5,7 @@ using System.Text;
 
 namespace World_Felix_Informatica.BLL.Models
 {
-    public class Funcao : IdentityRole<string>
+    public class Funcao : IdentityRole<int>
     {
         public string Descricao { get; set; }
     }

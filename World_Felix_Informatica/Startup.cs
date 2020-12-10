@@ -28,7 +28,7 @@ namespace World_Felix_Informatica
         {
             // Passo a String de Conexão do banco usando a class no pacote Dal
             services.AddDbContext<DalBase>(options => options.UseMySql(Configuration.GetConnectionString("DefaultConnections")));
-
+            services.AddScoped<DalBase, DalBase>();
             services.AddControllersWithViews();
         }
 

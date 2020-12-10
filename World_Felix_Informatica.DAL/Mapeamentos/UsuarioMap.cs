@@ -15,7 +15,7 @@ namespace World_Felix_Informatica.DAL.Mapeamentos
             builder.Property(u => u.CPF).IsRequired().HasMaxLength(11);
             builder.Property(u => u.DataNasc).IsRequired();
             builder.Property(u => u.Foto).IsRequired();
-            builder.Property(u => u.Email).IsRequired();
+            builder.Property(u => u.E_mail).IsRequired();
             builder.Property(u => u.PromeiroAcesso).IsRequired();
 
             builder.ToTable("Usuarios");

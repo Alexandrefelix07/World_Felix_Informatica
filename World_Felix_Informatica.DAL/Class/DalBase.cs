@@ -8,12 +8,13 @@ using World_Felix_Informatica.DAL.Mapeamentos;
 
 namespace World_Felix_Informatica.DAL.Class
 {
-    public class DalBase : IdentityDbContext<Usuario, Funcao, string>
+    public class DalBase : IdentityDbContext<Usuario,Funcao,int>
     {
         public DbSet<Funcao> Funcoes { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
 
         public DalBase(DbContextOptions<DalBase> opcoes) : base(opcoes)
+
         {
 
         }
