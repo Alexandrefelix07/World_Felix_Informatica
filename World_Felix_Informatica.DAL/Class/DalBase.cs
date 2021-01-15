@@ -13,9 +13,7 @@ namespace World_Felix_Informatica.DAL.Class
         public DbSet<Funcao> Funcoes { get; set; }
         public DbSet<Usuario> Usuarios { get; set; }
 
-        public DalBase(DbContextOptions<DalBase> opcoes) : base(opcoes)
-
-        {
+        public DalBase(DbContextOptions<DalBase> opcoes) : base(opcoes) {
 
         }
 

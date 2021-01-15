@@ -2,6 +2,7 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>f639a0dd-70e3-4ed5-9023-1fc54619a2db</UserSecretsId>
   </PropertyGroup>
 
  
@@ -9,4 +10,7 @@
     <ProjectReference Include="..\World_Felix_Informatica.BLL\World_Felix_Informatica.BLL.csproj" />
     <ProjectReference Include="..\World_Felix_Informatica.DAL\World_Felix_Informatica.DAL.csproj" />
   </ItemGroup>
+
+ 
+  <ProjectExtensions><VisualStudio><UserProperties properties_4launchsettings_1json__JsonSchema="" /></VisualStudio></ProjectExtensions>
 </Project>
